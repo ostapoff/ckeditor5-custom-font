@@ -15,6 +15,11 @@ import ColorTableView from './ui/colortableview';
 export const FONT_SIZE = 'fontSize';
 
 /**
+ * The name of the font style plugin.
+ */
+export const FONT_STYLE = 'fontStyle';
+
+/**
  * The name of the font family plugin.
  */
 export const FONT_FAMILY = 'fontFamily';

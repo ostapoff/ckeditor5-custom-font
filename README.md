@@ -8,6 +8,7 @@ CKEditor 5 font feature
 This package implements support for the following CKEditor 5 features:
 
 * font size,
+* font style,
 * font family,
 * font color,
 * font background color.

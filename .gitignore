@@ -2,6 +2,7 @@ node_modules/
 lerna-debug.log
 package-lock.json
 .vscode
+.DS_Store
 
 # Ignore `yarn.lock` - this file might contain info from external repositories.
 yarn.lock

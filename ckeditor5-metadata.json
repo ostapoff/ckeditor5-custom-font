@@ -103,6 +103,38 @@
 					"_comment": "The plugin can be configured to return any element with any classes and any inline styles."
 				}
 			]
+		},
+		{
+			"name": "Font style",
+			"className": "FontStyle",
+			"description": "Introduces font style support.",
+			"docs": "features/font.html#configuring-the-font-style-feature",
+			"path": "src/fontstyle.js",
+			"uiComponents": [
+				{
+					"type": "SplitButton",
+					"name": "fontStyle",
+					"iconPath": "theme/icons/font-style.svg"
+				}
+			],
+			"htmlOutput": [
+				{
+					"elements": "span",
+					"classes": [
+						"text-tiny",
+						"text-small",
+						"text-big",
+						"text-huge"
+					],
+					"_comment": "If the `config.fontStyle.options` option is not set or it contains predefined named presets, then the feature uses class names."
+				},
+				{
+					"elements": "*",
+					"classes": "*",
+					"styles": "*",
+					"_comment": "The plugin can be configured to return any element with any classes and any inline styles."
+				}
+			]
 		}
 	]
 }
